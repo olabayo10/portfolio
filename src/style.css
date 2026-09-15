@@ -1022,6 +1022,10 @@ footer {
 
 
 @media (max-width: 780px)  {
+  html, body {
+    overflow-x: hidden;
+    max-width: 100%;
+  }
 
   body {
     background-attachment: scroll;
@@ -1128,6 +1132,9 @@ footer {
     width: auto;
     height: auto;
   }
+  .hero-name {
+    font-size: 28px;
+  }
 
 
   /* about page */
@@ -1150,9 +1157,38 @@ footer {
     font-size: 24px;
   }
 
-  .hero-name {
-    font-size: 28px;
+  .about-boxes {
+    width: 100%;
+    max-width: 340px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px 0;
+    padding: 14px 12px;
   }
+
+  .about-box {
+    flex: 1 1 32%;
+    padding: 0 4px;
+  }
+
+  .about-box strong,
+  .about-box span {
+    white-space: normal;
+    text-align: center;
+  }
+
+  .about-box strong {
+    font-size: 13px;
+  }
+
+  .about-box span {
+    font-size: 11px;
+  }
+
+  .about-box + .about-box {
+    border-left: 1px solid rgba(245, 185, 66, 0.25);
+  }
+
 
   .about-skills {
     justify-content: center;
