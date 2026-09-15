@@ -11,7 +11,7 @@ const majorProjects = [
     tag: "Frontend",
     description:
       "A personal portfolio website showcasing my skills, experience and projects.",
-    link: "",
+    link: "https://portfolio-wheat-nine-nj1vuvbvdg.vercel.app/",
   },
   {
     title: "Sign Out",
@@ -49,6 +49,20 @@ const otherProjects = [
     tag: "React",
     description:
       "A simple counter application built while learning the fundamentals of React. This project helped me understand state management, event handling, and how React updates the UI dynamically.",
+    link: "https://count-api-sigma.vercel.app/",
+  },
+  {
+    title: "React Facecard",
+    tag: "React",
+    description:
+      "A React component built to practice props, state, and conditional rendering by displaying user profile cards with images, names, and details.",
+    link: "https://react-facecard-ktym.vercel.app/",
+  },
+  {
+    title: "Count with Add",
+    tag: "React",
+    description:
+      "A React counter app built to practice state management and event handling, allowing users to increment the count by adding custom values.",
     link: "https://count-api-sigma.vercel.app/",
   },
 ];
