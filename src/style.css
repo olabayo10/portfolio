@@ -1136,6 +1136,8 @@ footer {
     font-size: 28px;
   }
 
+  
+
 
   /* about page */
 
@@ -1194,10 +1196,16 @@ footer {
     justify-content: center;
   }
 
+  .about-image::before {
+    width: 328px;
+    height: 440px;
+  }
+
   .about-section,
   .skill-sect {
     background: #0f2247; 
   }
+
   
  /* skills */
 
