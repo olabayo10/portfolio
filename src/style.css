@@ -266,6 +266,10 @@ nav a:hover::active {
   height: auto;
 }
 
+.hero-actions a.btn-sec {
+  color: #ffffff;
+}
+
 .hero-actions a {
   text-decoration: none;
   color: #020814;
@@ -298,13 +302,13 @@ nav a:hover::active {
   box-shadow: 0 0 32px rgba(155, 108, 12, 0.65);
 }
 
-.btn-secondary {
+.btn-sec {
   background: transparent;
-  color: #ffffff;
   border: 2px solid #3a6fd8;
+  color: #ffffff;
 }
 
-.btn-secondary:hover {
+.btn-sec:hover {
   background: rgba(58, 111, 216, 0.15);
 }
 

@@ -30,9 +30,9 @@ function Hero({menuOpen}) {
             <a href="#contact" className="btn btn-primary">
               Hire Me <span className="btn-icon">&rarr;</span>
             </a>
-            <button className="btn btn-secondary">
+            <a href="/cv.pdf" download className="btn btn-sec">
               Download CV <span className="btn-icon">&darr;</span>
-            </button>
+            </a>
           </div>
         </div>
       </div>
