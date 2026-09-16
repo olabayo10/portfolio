@@ -20,7 +20,7 @@ function About() {
 
               <div className="about-boxes">
                 <div className="about-box">
-                  <strong>1+ Years</strong>
+                  <strong>2+ Years</strong>
                   <span>Experience</span>
                 </div>
                 <div className="about-box">
