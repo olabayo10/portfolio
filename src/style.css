@@ -143,15 +143,15 @@ nav a:hover::active {
 }
 
 .menu-icon.show span:nth-child(1) {
-    transform: rotate(45deg) translate(5px, 5px);
+  transform: rotate(45deg) translate(5px, 5px);
 }
 
 .menu-icon.show span:nth-child(2) {
-    opacity: 0;
+  opacity: 0;
 }
 
 .menu-icon.show span:nth-child(3) {
-    transform: rotate(-45deg) translate(6px, -6px);
+  transform: rotate(-45deg) translate(6px, -6px);
 }
 
 
@@ -296,6 +296,7 @@ nav a:hover::active {
   background: #f5b93d;
   color: #0b1730;
   box-shadow: 0 0 24px rgba(223, 151, 7, 0.45);
+  /* text-align: center; */
 }
 
 .btn-primary:hover {
@@ -1140,6 +1141,10 @@ footer {
     font-size: 28px;
   }
 
+  .btn-primary {
+    display: flex;
+    justify-content: center;
+  }
   
 
 
