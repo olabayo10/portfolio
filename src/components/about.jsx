@@ -1,6 +1,6 @@
 import myimage from '../images/corp.png'
 function About() {
-  const skills = ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"];
+  const skills = ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS", "NodeJs", "Express", "MongoDB", "API Integration"];
   return (
       <section className="about-section" id="about">
 
@@ -13,10 +13,10 @@ function About() {
             <div className="about-text">
               <h4 className="about-h4">About Me </h4>
               <h3>
-                I'm a Frontend Developer 
+                I'm a Fullstack Developer 
               </h3>
 
-              <h2>Building clean, functional interfaces</h2>
+              <h2>Building clean, scalable, functional interface with modern web applications from the frontend to the backend. </h2>
 
               <div className="about-boxes">
                 <div className="about-box">
@@ -29,7 +29,7 @@ function About() {
                 </div>
                 <div className="about-box">
                   <strong>Clean Code</strong>
-                  <span>&amp; Best Practices</span>
+                  <span>&amp; interacctive web applications.</span>
                 </div>
               </div>
             </div>
