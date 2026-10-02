@@ -21,10 +21,10 @@ function Hero({menuOpen}) {
           <p className="hero-greeting">Hello, I'm <span className="hero-line"></span></p>
 
           <h1 className="hero-name">Adebayo <span className="hero-accent">Dada</span></h1>
-          <h4 className="hero-role">Frontend Developer</h4>
+          <h4 className="hero-role">Fullstack Developer</h4>
 
           <p className="hero-description">
-            I'm a frontend developer equiped to solve digital problems.
+            I'm a fullstack developer equiped to solve digital problems.
           </p>     
           <div className="hero-actions">
             <a href="#contact" className="btn btn-primary">
